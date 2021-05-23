@@ -13,7 +13,6 @@ namespace AzStorageWorkerDemo
         private readonly ILogger<AzStorageWorker> _logger;
         private readonly ChainedTokenCredential _tokenCredential;
 
-        private string accessToken;
         public AzStorageWorker(ILogger<AzStorageWorker> logger, ChainedTokenCredential tokenCredential)
         {
             _logger = logger;

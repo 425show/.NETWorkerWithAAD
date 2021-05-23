@@ -1,0 +1,9 @@
+
+version: '3.4'
+
+services:
+  azstorageworkerdemo:
+    image: azstorageworkerdemo
+    build:
+      context: .
+      dockerfile: AzStorageWorker/Dockerfile
